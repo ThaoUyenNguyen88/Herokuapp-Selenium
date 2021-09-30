@@ -1,8 +1,12 @@
 package base;
 
+import java.io.File;
+import java.util.HashMap;
+import java.util.Map;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 
@@ -23,7 +27,12 @@ public class BrowserDriverFactory {
 		switch (browser) {
 		case "chrome":
 			System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
-			driver.set(new ChromeDriver());
+			Map<String, Object> prefs = new HashMap<String, Object>();	         
+	        prefs.put("download.default_directory", "C:\\Users\\uyenttnguyen\\Desktop\\hello");
+	        ChromeOptions options = new ChromeOptions();
+	        options.setExperimentalOption("prefs", prefs);
+	         
+			driver.set(new ChromeDriver(options));
 			break;
 
 		case "firefox":

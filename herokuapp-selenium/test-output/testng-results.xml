@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-28T19:46:53 ICT" name="Default suite" finished-at="2021-09-28T19:47:08 ICT" duration-ms="15148">
+  <suite started-at="2021-09-30T20:42:18 ICT" name="Default suite" finished-at="2021-09-30T20:42:38 ICT" duration-ms="19520">
     <groups>
     </groups>
-    <test started-at="2021-09-28T19:46:53 ICT" name="Default test" finished-at="2021-09-28T19:47:08 ICT" duration-ms="15148">
-      <class name="iFrameTests.IFrameTests">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,java.lang.String,org.testng.ITestContext)[pri:0, instance:iFrameTests.IFrameTests@4efc180e]" started-at="2021-09-28T19:46:53 ICT" name="setUp" finished-at="2021-09-28T19:47:00 ICT" duration-ms="7053" status="PASS">
+    <test started-at="2021-09-30T20:42:18 ICT" name="Default test" finished-at="2021-09-30T20:42:38 ICT" duration-ms="19520">
+      <class name="downloadFileTests.DownloadFileTests">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,java.lang.String,org.testng.ITestContext)[pri:0, instance:downloadFileTests.DownloadFileTests@4efc180e]" started-at="2021-09-30T20:42:18 ICT" name="setUp" finished-at="2021-09-30T20:42:25 ICT" duration-ms="7008" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void iFrameTests.IFrameTests.IFrameTest()]]>
+                <![CDATA[public void downloadFileTests.DownloadFileTests.downLoadFileTest()]]>
               </value>
             </param>
             <param index="1">
@@ -21,22 +21,22 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@72fd8a3c]]>
+                <![CDATA[org.testng.TestRunner@748d2277]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="IFrameTest()[pri:0, instance:iFrameTests.IFrameTests@4efc180e]" started-at="2021-09-28T19:47:00 ICT" name="IFrameTest" finished-at="2021-09-28T19:47:08 ICT" duration-ms="7423" status="PASS">
+        <test-method signature="downLoadFileTest()[pri:0, instance:downloadFileTests.DownloadFileTests@4efc180e]" started-at="2021-09-30T20:42:25 ICT" name="downLoadFileTest" finished-at="2021-09-30T20:42:37 ICT" duration-ms="11838" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- IFrameTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:iFrameTests.IFrameTests@4efc180e]" started-at="2021-09-28T19:47:08 ICT" name="tearDown" finished-at="2021-09-28T19:47:08 ICT" duration-ms="645" status="PASS">
+        </test-method> <!-- downLoadFileTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:downloadFileTests.DownloadFileTests@4efc180e]" started-at="2021-09-30T20:42:37 ICT" name="tearDown" finished-at="2021-09-30T20:42:38 ICT" duration-ms="646" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- iFrameTests.IFrameTests -->
+      </class> <!-- downloadFileTests.DownloadFileTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
