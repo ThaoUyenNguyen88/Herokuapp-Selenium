@@ -1,8 +1,8 @@
 package base;
-
+import org.apache.logging.log4j.Logger;
 import java.lang.reflect.Method;
 import java.util.HashMap;
-
+import org.apache.log4j.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -17,7 +17,7 @@ import org.testng.annotations.Parameters;
 public class BaseTest {
 
 	protected WebDriver driver;
-	protected Logger log;
+	public Logger log;
 
 	protected String testSuiteName;
 	protected String testName;
