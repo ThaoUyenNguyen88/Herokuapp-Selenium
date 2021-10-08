@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-04T19:40:27 ICT" name="Default suite" finished-at="2021-10-04T19:40:45 ICT" duration-ms="17798">
+  <suite started-at="2021-10-08T14:38:53 ICT" name="Default suite" finished-at="2021-10-08T14:39:05 ICT" duration-ms="11546">
     <groups>
     </groups>
-    <test started-at="2021-10-04T19:40:27 ICT" name="Default test" finished-at="2021-10-04T19:40:45 ICT" duration-ms="17798">
-      <class name="downloadFileTests.DownloadFileTests">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,java.lang.String,org.testng.ITestContext)[pri:0, instance:downloadFileTests.DownloadFileTests@f736069]" started-at="2021-10-04T19:40:27 ICT" name="setUp" finished-at="2021-10-04T19:40:34 ICT" duration-ms="6511" status="PASS">
+    <test started-at="2021-10-08T14:38:53 ICT" name="Default test" finished-at="2021-10-08T14:39:05 ICT" duration-ms="11546">
+      <class name="multipleWindowsTests.MultipleWindowsTests">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,java.lang.String,org.testng.ITestContext)[pri:0, instance:multipleWindowsTests.MultipleWindowsTests@f736069]" started-at="2021-10-08T14:38:53 ICT" name="setUp" finished-at="2021-10-08T14:39:00 ICT" duration-ms="6809" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void downloadFileTests.DownloadFileTests.downLoadFileTest()]]>
+                <![CDATA[public void multipleWindowsTests.MultipleWindowsTests.newTab()]]>
               </value>
             </param>
             <param index="1">
@@ -21,22 +21,22 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@1bf14704]]>
+                <![CDATA[org.testng.TestRunner@1319bc2a]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="downLoadFileTest()[pri:0, instance:downloadFileTests.DownloadFileTests@f736069]" started-at="2021-10-04T19:40:34 ICT" name="downLoadFileTest" finished-at="2021-10-04T19:40:44 ICT" duration-ms="10474" status="PASS">
+        <test-method signature="newTab()[pri:0, instance:multipleWindowsTests.MultipleWindowsTests@f736069]" started-at="2021-10-08T14:39:00 ICT" name="newTab" finished-at="2021-10-08T14:39:04 ICT" duration-ms="4025" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- downLoadFileTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:downloadFileTests.DownloadFileTests@f736069]" started-at="2021-10-04T19:40:44 ICT" name="tearDown" finished-at="2021-10-04T19:40:45 ICT" duration-ms="790" status="PASS">
+        </test-method> <!-- newTab -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:multipleWindowsTests.MultipleWindowsTests@f736069]" started-at="2021-10-08T14:39:04 ICT" name="tearDown" finished-at="2021-10-08T14:39:05 ICT" duration-ms="675" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- downloadFileTests.DownloadFileTests -->
+      </class> <!-- multipleWindowsTests.MultipleWindowsTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="downloadFileTests.DownloadFileTests">
+      <class name="uploadFileTests.UploadFileTests">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="downLoadFileTest"/>
+          <include name="UploadFileTest"/>
         </methods>
-      </class> <!-- downloadFileTests.DownloadFileTests -->
+      </class> <!-- uploadFileTests.UploadFileTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
