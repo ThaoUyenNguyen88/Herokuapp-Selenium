@@ -20,6 +20,8 @@ public class HomePage extends BasePageObject {
 	WebElement frameLink;
 	@FindBy(linkText = "iFrame")
 	WebElement iFrameLink;
+	@FindBy(linkText = "Form Authentication")
+	WebElement logInLink;
 
 	public HomePage(WebDriver driver, Logger log) {
 		super(driver, log);
@@ -67,4 +69,11 @@ public class HomePage extends BasePageObject {
 		iFrameLink.click();
 		return new IframePage(driver, log);
 	}
+	
+	// click login link
+		public LoginPage clickLogInLink() {
+			log.info("Open Login Page");
+			logInLink.click();
+			return new LoginPage(driver, log);
+		}
 }
